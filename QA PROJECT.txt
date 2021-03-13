@@ -1,0 +1,26 @@
+1. select one ecommerce site from fortune 500 companies.
+2. check their corporate office.
+3. check if they have QA teams
+4. once you select the company, open three more competitor companies' domains.
+5. study 8 hour in your domain to check what they have and what other three companies have.
+6. find what other three companies have but your company don't have.
+7. analyse that new feature 2 more hours and write that service like story.
+8. this will be your last project.
+9. q1: what is your company all about
+10. Ans:
+11. q2: what is your new module all about
+12. Ans:
+13. q3: how you tested that module(important80 percent content from this answer)
+14.    Ans:
+15. q4: what automation framework you have used.
+16.    Ans: 
+17. q5: what environment you have used
+18.    Ans:
+19. Test Case: Create 10 different test cases from this module.
+20. Ans test them manually using automation
+21.
+22. 2nd way: any module your company havebut its not upto date you can redesign that module.
+23.
+24. First Draft: due date January 3rd
+25. Second Draft: based on the review of first draft--- due date January 10th
+ 

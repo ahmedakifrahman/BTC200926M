@@ -1,0 +1,70 @@
+{
+  "id": "d92e1fad-88ba-4a25-8931-1dcf4d0b3947",
+  "version": "2.0",
+  "name": "BIT-TECH",
+  "url": "https://www.guitarcenter.com",
+  "tests": [{
+    "id": "8e2dc7a6-1cbe-45d3-898c-2212ce87d5b9",
+    "name": "MY PERSONAL TEST",
+    "commands": [{
+      "id": "980f1810-bd25-4cd5-94cd-3a3d0237433a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16ab209e-6116-4f0f-aae4-debbf2283261",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1355x716",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e72e1ace-df8f-4072-90f3-15d91a4ec490",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchTerm",
+      "targets": [
+        ["id=searchTerm", "id"],
+        ["name=Ntt", "name"],
+        ["css=#searchTerm", "css:finder"],
+        ["xpath=//input[@id='searchTerm']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe0717a-8224-43fa-a714-7061202202fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchTerm",
+      "targets": [
+        ["id=searchTerm", "id"],
+        ["name=Ntt", "name"],
+        ["css=#searchTerm", "css:finder"],
+        ["xpath=//input[@id='searchTerm']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765b5007-47a1-42fe-a6ca-811341514419",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchSubmit",
+      "targets": [],
+      "value": "Bit tech"
+    }]
+  }],
+  "suites": [{
+    "id": "663e0d08-6212-428f-a673-fa6f13447c94",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8e2dc7a6-1cbe-45d3-898c-2212ce87d5b9"]
+  }],
+  "urls": ["https://www.guitarcenter.com/"],
+  "plugins": []
+}

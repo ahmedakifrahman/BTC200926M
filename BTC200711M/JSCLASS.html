@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title> JAVA SCRIPT HOMEWORK </title>
+        <script>
+            var a = 100;
+            var b = "hi";
+            var c = 50;
+            
+            function myFunction(){
+                
+                document.write("WELCOME TO BITTECH");
+                document.write("<br />");
+                document.write(a+c);
+                document.write("<br />");
+                document.write(a+b);
+            }
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $("#hide").click(function(){
+                $("p").hide();
+              });
+              $("#show").click(function(){
+                $("p").show();
+              });
+            });
+        </script>
+        <script> 
+            $(document).ready(function(){
+              $("button").click(function(){
+                $("div").animate({left: '250px'});
+              });
+            });
+        </script> 
+
+        
+    </head>
+    <body>
+        
+        <input type="button" value="Button 1" onclick="REMINDER('I am a reminder')"> <br><br>
+        <input type="button" value="Button 2" onclick="CONFIRM('I am here to confirm')"> <br><br>
+        <input type="button" value="Button 3" onclick="prompt('What is your Zip code?')"> <br><br>
+        <input type="button" value="Button 4" onclick="myFunction()"> <br><br>
+        
+        <p>If you click on the "Hide" button, I will disappear.</p>
+
+        <button id="hide">Hide</button>
+        <button id="show">Show</button> <br><br>
+        
+        <button>Start Animation</button>
+
+        <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+        <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+    
+<!--
+JS can be used in 3 diffent ways 
+InlineCall, internal call, external call
+
+
+-->  
+    
+    </body>
+</html>
